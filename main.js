@@ -89,7 +89,6 @@ function selectAnswer(button, correct) {
 
 function showScore() {
   resetState();
-  questionElement.innerText = Você acertou ${score} de ${questions.length} perguntas!;
   nextButton.innerText = "Reiniciar";
   nextButton.style.display = "block";
 }
